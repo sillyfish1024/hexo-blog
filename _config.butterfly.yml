@@ -65,7 +65,7 @@ disable_top_img: false
 default_top_img:
 
 # The banner image of index page
-index_img:
+index_img: https://sillyfish-blog.oss-cn-guangzhou.aliyuncs.com/img/cherry-blossoms-301253_1920.jpg
 
 # The banner image of archive page
 archive_img:
@@ -147,7 +147,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -162,7 +162,8 @@ subtitle:
   # 3 - jinrishici.com
   source: false
   # If you close the typewriter effect, the subtitle will only show the first line of sub
-  sub:
+  sub: 
+    - '励志的励志程序员'
 
 # Article layout on the homepage
 # 1: Cover on the left, info on the right
